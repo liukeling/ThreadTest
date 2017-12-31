@@ -14,7 +14,39 @@ package com.lkl;
  *
  */
 public class Main {
+    //本次抢购的产品一个是一千个
+    public static int count = 100;
     public static void main(String[] args){
-
+        //设置总数
+        Producer.setCount(count);
+        Consumer.setCount(count);
+        Producer producer1 = new Producer();
+        Producer producer2 = new Producer();
+        Producer producer3 = new Producer();
+        Producer producer4 = new Producer();
+        Producer producer5 = new Producer();
+        Producer producer6 = new Producer();
+        producer1.setName("生产者一号");
+        producer2.setName("生产者二号");
+        producer3.setName("生产者三号");
+        producer4.setName("生产者四号");
+        producer5.setName("生产者五号");
+        producer6.setName("生产者六号");
+        Consumer consumer1 = new Consumer();
+        Consumer consumer2 = new Consumer();
+        Consumer consumer3 = new Consumer();
+        Consumer consumer4 = new Consumer();
+        Consumer consumer5 = new Consumer();
+        Consumer consumer6 = new Consumer();
+        consumer1.setName("消费者一号");
+        consumer2.setName("消费者二号");
+        consumer3.setName("消费者三号");
+        //开始
+        producer1.start();
+        producer2.start();
+        producer3.start();
+        consumer1.start();
+        consumer2.start();
+        consumer3.start();
     }
 }
