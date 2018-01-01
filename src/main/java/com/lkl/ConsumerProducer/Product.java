@@ -1,4 +1,4 @@
-package com.lkl;
+package com.lkl.ConsumerProducer;
 
 public class Product {
     //产品的使用寿命

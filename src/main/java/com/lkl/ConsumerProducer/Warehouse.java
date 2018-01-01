@@ -1,7 +1,4 @@
-package com.lkl;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.lkl.ConsumerProducer;
 
 public class Warehouse {
     private static Warehouse _warehouse = new Warehouse();

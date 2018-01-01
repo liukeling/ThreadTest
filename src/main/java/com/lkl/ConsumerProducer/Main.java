@@ -1,4 +1,4 @@
-package com.lkl;
+package com.lkl.ConsumerProducer;
 
 /**
  * 需求：生产者五个，消费者十个，生产者一共生产一千个产品，消费者进行消费

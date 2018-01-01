@@ -1,6 +1,5 @@
-package com.lkl;
+package com.lkl.ConsumerProducer;
 
-import java.util.List;
 import java.util.Random;
 
 public class Producer extends Thread {

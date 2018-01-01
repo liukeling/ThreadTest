@@ -1,4 +1,4 @@
-package com.lkl;
+package com.lkl.ConsumerProducer;
 
 public class Consumer extends Thread{
     //用来进行通知消费者进行消费的对象
